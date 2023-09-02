@@ -1,0 +1,88 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins" !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero::before {
+  content: url("../assets/images/banner-left.png");
+  top: 100px;
+  left: 0;
+  position: absolute;
+  width: 194px;
+  height: 655px;
+  z-index: -1;
+}
+.hero::after {
+  content: url("../assets/images/banner-right.png");
+  top: 100px;
+  right: 0;
+  position: absolute;
+  width: 861px;
+  height: 746px;
+  z-index: -1;
+}
+
+/* .service::before{
+  content: url('../assets/images/services-left.jpg');
+  top: 150px;
+  left:0px;
+  position: absolute;
+  width: 194px;
+  height: 655px;
+  z-index: -1;
+} */
+.service::after {
+  content: url("../assets/images/contact-left.jpg");
+  top: 300px;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  rotate: 180deg;
+}
+
+@media (max-width: 768px) {
+  .hero::after {
+    width: 600px;
+  }
+  .service::before {
+    content: "";
+  }
+}
+
+.about {
+  background-image: url("../assets/images/infos-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact::after {
+  content: url("../assets/images/contact-left.jpg");
+  bottom: 150px;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  rotate: 180deg;
+}
+.contact::before {
+  content: url("../assets/images/contact-left.jpg");
+  top: 150px;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
