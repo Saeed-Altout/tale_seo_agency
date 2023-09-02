@@ -10,12 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <ContextProvider>
-        <body className="overflow-x-hidden">
+      <body className="overflow-x-hidden">
+        <ContextProvider>
           <Navbar />
           {children}
-        </body>
-      </ContextProvider>
+        </ContextProvider>
+      </body>
     </html>
   );
 }

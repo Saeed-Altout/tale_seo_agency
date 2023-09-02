@@ -1,5 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"); */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,11 +9,7 @@
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Poppins" !important;
-}
-
-ul {
-  list-style: none;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .hero::before {
@@ -36,16 +30,6 @@ ul {
   height: 746px;
   z-index: -1;
 }
-
-/* .service::before{
-  content: url('../assets/images/services-left.jpg');
-  top: 150px;
-  left:0px;
-  position: absolute;
-  width: 194px;
-  height: 655px;
-  z-index: -1;
-} */
 .service::after {
   content: url("../assets/images/contact-left.jpg");
   top: 300px;

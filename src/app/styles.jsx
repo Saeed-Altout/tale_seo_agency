@@ -50,8 +50,8 @@ const component = {
 };
 
 const gradient = {
-  tale: "bg-gradient-to-tr from-[#5b03e4] to-[#c03afe]",
-  taleNavbar: "bg-gradient-to-r from-[#5b03e4] to-[#c03afe]",
+  tale: "bg-gradient-to-t from-[#5b03e4] to-[#c03afe]",
+  taleNavbar: "bg-gradient-to-b from-[#5b03e4] to-[#c03afe]",
   taleProgress: "bg-gradient-to-r from-[#5b03e4] to-[#c03afe]",
 };
 
