@@ -4,8 +4,7 @@ import { dataContant } from "@/constants";
 import { useStateContext } from "@/contexts/ContextProvider";
 
 const Contact = () => {
-  const { loading, form, formRef, handleSubmit, handleChange } =
-    useStateContext();
+  const { loading } = useStateContext();
   return (
     <section className="relative py-40 contact" id="contact">
       <div className={`${wrapper.section} flex-col lg:flex-row gap-20`}>
@@ -15,50 +14,46 @@ const Contact = () => {
             <span className="text-secondary">Touch </span>
           </h3>
 
-          <form
-            ref={formRef}
-            onSubmit={handleSubmit}
-            className="flex flex-col w-full gap-5"
-          >
+          <form onSubmit={() => {}} className="flex flex-col w-full gap-5">
             <input
-              onChange={handleChange}
+              onChange={() => {}}
               type="text"
               name="firstName"
-              value={form.name}
+              value={""}
               placeholder="Your First Name"
               className="w-full px-5 py-3 bg-purple-100 rounded-lg outline-none"
             />
             <input
-              onChange={handleChange}
+              onChange={() => {}}
               type="text"
               name="lastName"
-              value={form.surname}
+              value={""}
               placeholder="Your Last Name"
               className="w-full px-5 py-3 bg-purple-100 rounded-lg outline-none"
             />
             <input
-              onChange={handleChange}
+              onChange={() => {}}
               type="email"
               name="email"
-              value={form.email}
+              value={""}
               placeholder="Your E-mail"
               className="w-full px-5 py-3 bg-purple-100 rounded-lg outline-none"
             />
             <input
-              onChange={handleChange}
+              onChange={() => {}}
               type="text"
               name="subject"
-              value={form.subject}
+              value={""}
               placeholder="Subject"
               className="w-full px-5 py-3 bg-purple-100 rounded-lg outline-none"
             />
 
             <textarea
               rows={5}
-              onChange={handleChange}
+              onChange={() => {}}
               type="textarea"
               name="message"
-              value={form.message}
+              value={""}
               placeholder="Your Message"
               className="w-full px-5 py-3 bg-purple-100 rounded-lg outline-none"
             />
