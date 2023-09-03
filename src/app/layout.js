@@ -3,8 +3,8 @@ import "./globals.css";
 import { Navbar } from "@/components";
 import { ContextProvider } from "@/contexts/ContextProvider";
 export const metadata = {
-  title: "Tale",
-  description: "Tale SEO Agency",
+  title: "tale_seo_agency",
+  description: "tale_seo_agency",
 };
 
 export default function RootLayout({ children }) {
