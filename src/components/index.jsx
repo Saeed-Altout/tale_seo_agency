@@ -1,12 +1,8 @@
 export { default as Navbar } from "./Navbar";
 export { default as Button } from "./Button";
-export { default as ProjectCard } from "./ProjectCard";
-export { default as ServiceCard } from "./ServiceCard";
 export { default as Logo } from "./Logo";
 export { default as Toggle } from "./Toggle";
-export { default as MenuDesktop } from "./MenuDesktop";
-export { default as MenuMobile } from "./MenuMobile";
+export { default as Menu } from "./Menu";
 export { default as ButtonScroll } from "./ButtonScroll";
 export { default as TitleWebsite } from "./TitleWebsite";
 export { default as WhiteSpace } from "./WhiteSpace";
-export { default as TitleSection } from "./TitleSection";

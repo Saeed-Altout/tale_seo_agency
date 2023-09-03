@@ -1,3 +1,4 @@
+"use client";
 import { flex } from "@/app/styles";
 const WhiteSpace = ({ children, styles }) => {
   return (

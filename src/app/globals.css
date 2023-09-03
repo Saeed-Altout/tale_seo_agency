@@ -1,11 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-}
-body {
-  font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 
 .hero::before {
@@ -66,7 +67,3 @@ body {
   position: absolute;
   z-index: -1;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

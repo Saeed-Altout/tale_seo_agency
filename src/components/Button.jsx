@@ -1,3 +1,4 @@
+"use client";
 import { transition } from "@/app/styles";
 import Link from "next/link";
 const Button = ({ text, styles, href }) => {

@@ -1,3 +1,4 @@
+"use client";
 import { cards, flex, gradient, wrapper } from "@/app/styles";
 import { services } from "@/constants";
 import Image from "next/image";

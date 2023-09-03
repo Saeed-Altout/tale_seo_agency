@@ -18,9 +18,6 @@ module.exports = {
       fontFamily: {
         poppins: "poppins",
       },
-      backgroundImage: {
-        "hero-pattern-right": "url('./src/assets/images/banner-right')",
-      },
     },
   },
   plugins: [],

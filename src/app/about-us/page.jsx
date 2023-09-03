@@ -11,6 +11,7 @@ const About = () => {
         text="Go back to home"
         styles="bg-primary text-white"
       />
+      <p>Developed Now (^_^)</p>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+"use client";
 import { flex } from "@/app/styles";
 import { motion } from "framer-motion";
 import Link from "next/link";

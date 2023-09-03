@@ -1,3 +1,4 @@
+"use client";
 import { flex, gradient, wrapper } from "@/app/styles";
 import { WhiteSpace } from "@/components";
 import { dataContant } from "@/constants";

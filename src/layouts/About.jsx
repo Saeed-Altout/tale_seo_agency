@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { leftInfos } from "@/assets/images";
 import { WhiteSpace } from "@/components";

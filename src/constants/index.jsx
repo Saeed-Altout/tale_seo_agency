@@ -71,6 +71,7 @@ export const services = [
     descr: "SEO Marketing & Social Media",
   },
 ];
+
 export const projects = [
   {
     id: 0,
@@ -93,6 +94,7 @@ export const projects = [
     descr: "SEO Marketing & Social Media",
   },
 ];
+
 export const offers = [
   {
     id: 0,
@@ -137,6 +139,7 @@ export const dataInputs = [
     placeholder: "Your Subject",
   },
 ];
+
 export const dataContant = [
   {
     id: 0,

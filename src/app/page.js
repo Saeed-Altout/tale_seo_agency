@@ -1,12 +1,11 @@
 "use client";
+import { Navbar } from "@/components";
 import { About, Contact, Footer, Projects, Services, Hero } from "@/layouts";
 const Home = () => {
   return (
     <>
-      <header>
-        <Hero />
-      </header>
       <main>
+        <Hero />
         <Services />
         <Projects />
         <About />

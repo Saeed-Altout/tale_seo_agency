@@ -1,3 +1,4 @@
+"use client";
 import { styles } from "@/app/styles";
 import React from "react";
 

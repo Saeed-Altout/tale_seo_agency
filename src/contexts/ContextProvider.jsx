@@ -8,6 +8,7 @@ export const ContextProvider = ({ children }) => {
   const [activeDropDown, setActiveDropDown] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [loading, setLoading] = useState(false);
+
   const handleScroll = () => {
     const scrollTop = window.scrollY;
     if (scrollTop > 100) {

@@ -1,27 +1,20 @@
 "use client";
+import { Logo, Menu, Toggle } from "./index";
 import { useStateContext } from "@/contexts/ContextProvider";
-import { Logo, MenuDesktop, MenuMobile, TitleWebsite, Toggle } from "./index";
-import { component, gradient, transition } from "@/app/styles";
 
 const Navbar = () => {
-  const { activeMenu, scrolled } = useStateContext();
+  const { activeMenu } = useStateContext();
 
   return (
-    <>
-      <TitleWebsite />
-      <nav
-        className={`${transition.normal} transition-transform ${
-          scrolled ? "translate-y-[68px]" : "translate-y-0 top-0"
-        } ${gradient.taleNavbar} ${component.navbar}`}
-      >
-        <div className={`${component.navbarWrapper} px-6 md:px-16 mx-auto`}>
-          <Logo />
-          <MenuDesktop />
-          <Toggle />
-          {activeMenu && <MenuMobile />}
-        </div>
-      </nav>
-    </>
+    <nav className="bg-gradient-to-l from-[#5b03e4] to-[#c03afe] w-full fixed top-0 z-[1000]">
+      <div className="container flex items-center justify-between px-6 py-2 mx-auto">
+        <Logo />
+        <Menu isMobile={false} />
+
+        <Toggle />
+        {activeMenu && <Menu isMobile={true} />}
+      </div>
+    </nav>
   );
 };
 

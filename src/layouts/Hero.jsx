@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { flex, wrapper } from "@/app/styles";
 import { Button, ButtonScroll } from "@/components";
